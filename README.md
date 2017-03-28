@@ -8,7 +8,7 @@ The easiest way though is **iterating a system of functions**, which probably re
 Using 
 
 ```math
-f(z) = z + c   | z,c are complex numbers
+f(z) = z*z + c   | z,c are complex numbers
 ```
 as iterative function, we can generate Julia sets, of which the Mandelbrot set is a specific variant.
 
