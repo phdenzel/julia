@@ -111,7 +111,7 @@ int main(void) {
   while (is_running) {
     
     is_running = processEvents(window, is_running, 1); // w/ mouse tracking
-
+    #pragma omp simd
     for (int i = 0; i<WIDTH*HEIGHT; i++) {
       c = cconst[0];
       // linear map pixel coordinates

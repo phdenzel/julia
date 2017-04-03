@@ -1,6 +1,6 @@
 CC=gcc-6
 CFLAGS=-Wall -g -O3
-OMP= #-fopenmp
+OMP=-fopenmp
 CFLAGS+= $(OMP)
 SDLFLAGS=`sdl2-config --cflags --libs`
 
