@@ -2,8 +2,8 @@
 
 A Julia set generator programmed in C using the SDL2 library.
 
-Fractals are both mathematically as well as artistically highly interesting. They can be generated in different ways, **strange attractors** and **Lindenmayer systems** being some of the more prominent methods. 
-The easiest way though is **iterating a system of functions**, which probably reflects the self-similar, repetitive nature of fractals the best.
+Fractals are of great mathematical as well as artistical interest. They can be generated in different ways, **strange attractors** and **Lindenmayer systems** being some of the more prominent keys. 
+The easiest way however, is **iterating a system of functions**, which probably reflects the self-similar, repetitive nature of fractals best.
 
 Using 
 
